@@ -1,0 +1,88 @@
+{
+    "events": [
+        {
+            "id": "1",
+            "title": "Sample Event One",
+            "slug": "sample-event-one",
+            "venue": "Sample Venuw",
+            "performers": "Sample Performers",
+            "date": "12/2/2023",
+            "time": "19:00",
+            "price": 29.99,
+            "image": "/images/event-1.jpg",
+            "content": "This is a sample event"
+        },
+        {
+            "id": "2",
+            "title": "Sample Event Two",
+            "slug": "sample-event-two",
+            "venue": "Sample Venuw",
+            "performers": "Sample Performers",
+            "date": "12/2/2023",
+            "time": "19:00",
+            "price": 29.99,
+            "image": "/images/event-2.jpg",
+            "content": "This is a sample event"
+        },
+        {
+            "id": "3",
+            "title": "Sample Event Three",
+            "slug": "sample-event-three",
+            "venue": "Sample Venuw",
+            "performers": "Sample Performers",
+            "date": "12/2/2023",
+            "time": "19:00",
+            "price": 29.99,
+            "image": "/images/event-3.jpg",
+            "content": "This is a sample event"
+        },
+        {
+            "id": "4",
+            "title": "Sample Event Four",
+            "slug": "sample-event-four",
+            "venue": "Sample Venuw",
+            "performers": "Sample Performers",
+            "date": "12/2/2023",
+            "time": "19:00",
+            "price": 29.99,
+            "image": "/images/event-4.jpg",
+            "content": "This is a sample event"
+        },
+        {
+            "id": "5",
+            "title": "Sample Event Five",
+            "slug": "sample-event-five",
+            "venue": "Sample Venuw",
+            "performers": "Sample Performers",
+            "date": "12/2/2023",
+            "time": "19:00",
+            "price": 29.99,
+            "image": "/images/event-5.jpg",
+            "content": "This is a sample event"
+        },
+        {
+            "id": "6",
+            "title": "Sample Event Six",
+            "slug": "sample-event-six",
+            "venue": "Sample Venuw",
+            "performers": "Sample Performers",
+            "date": "12/2/2023",
+            "time": "19:00",
+            "price": 29.99,
+            "image": "/images/event-6.jpg",
+            "content": "This is a sample event"
+        },
+        {
+            "id": "7",
+            "title": "Sample Event Seven",
+            "slug": "sample-event-seven",
+            "venue": "Sample Venuw",
+            "performers": "Sample Performers",
+            "date": "12/2/2023",
+            "time": "19:00",
+            "price": 29.99,
+            "image": "/images/event-7.jpg",
+            "content": "This is a sample event"
+        }
+    ]
+}
