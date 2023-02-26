@@ -4,8 +4,11 @@ import React from 'react'
 import Layout from '@/components/layout/Layout'
 import EventItem from '@/components/event/EventItem'
 
+// data
+import { API_URL } from '@/config/config'
+
 export default function EventsPage( { events } ) {
-  console.log( events )
+
   return (
     <Layout title='All Events'>
       <div className='container mx-auto mt-10'>
@@ -22,7 +25,7 @@ export default function EventsPage( { events } ) {
 
 export async function getServerSideProps() {
 
-  const res = await fetch( 'http://localhost:3000/api/events' )
+  const res = await fetch( `${API_URL}/api/events` )
 
   //return data
   const data = await res.json()

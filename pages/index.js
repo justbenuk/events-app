@@ -5,6 +5,9 @@ import Layout from '@/components/layout/Layout'
 import HomeCarousel from '@/components/carousel/HomeCarousel'
 import EventItem from '@/components/event/EventItem'
 
+// data
+import { API_URL } from '@/config/config'
+
 export default function Home( { events } ) {
   return (
     <Layout>
@@ -25,7 +28,7 @@ export default function Home( { events } ) {
 export async function getServerSideProps() {
 
   // get the events
-  const res = await fetch( 'http://localhost:3000/api/events' )
+  const res = await fetch( `${API_URL}/api/events` )
   // return the events
   const data = await res.json()
 
